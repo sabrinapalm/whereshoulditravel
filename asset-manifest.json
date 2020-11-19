@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/whereshoulditravel/static/css/main.0d4fa2a9.chunk.css",
+    "main.js": "/whereshoulditravel/static/js/main.c495e32f.chunk.js",
+    "main.js.map": "/whereshoulditravel/static/js/main.c495e32f.chunk.js.map",
+    "runtime-main.js": "/whereshoulditravel/static/js/runtime-main.93946f74.js",
+    "runtime-main.js.map": "/whereshoulditravel/static/js/runtime-main.93946f74.js.map",
+    "static/js/2.bfb719b1.chunk.js": "/whereshoulditravel/static/js/2.bfb719b1.chunk.js",
+    "static/js/2.bfb719b1.chunk.js.map": "/whereshoulditravel/static/js/2.bfb719b1.chunk.js.map",
+    "static/js/3.e65b53b9.chunk.js": "/whereshoulditravel/static/js/3.e65b53b9.chunk.js",
+    "static/js/3.e65b53b9.chunk.js.map": "/whereshoulditravel/static/js/3.e65b53b9.chunk.js.map",
+    "index.html": "/whereshoulditravel/index.html",
+    "static/css/main.0d4fa2a9.chunk.css.map": "/whereshoulditravel/static/css/main.0d4fa2a9.chunk.css.map",
+    "static/js/2.bfb719b1.chunk.js.LICENSE.txt": "/whereshoulditravel/static/js/2.bfb719b1.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/whereshoulditravel/static/media/travel-conditions_1600.83498af8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93946f74.js",
+    "static/js/2.bfb719b1.chunk.js",
+    "static/css/main.0d4fa2a9.chunk.css",
+    "static/js/main.c495e32f.chunk.js"
+  ]
+}
