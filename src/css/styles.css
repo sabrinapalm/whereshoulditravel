@@ -1,0 +1,212 @@
+.App {
+  font-family: sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url('../assets/travel-conditions_1600.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.rotate:hover {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.container {
+  text-align: center;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  font-size: 23px;
+  margin-top: 25px;
+  border: 2px solid #fff;
+  visibility: visible;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 10px 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.App-link {
+  color: #5a489b;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  text-decoration: none;
+  color: #7967b9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer span {
+  font-size: 16px;
+}
+
+.rsm-geography {
+  cursor: pointer;
+}
+
+.rsm-geography:active {
+  cursor: grabbing;
+}
+
+.modal-container {
+  text-align: left;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.modal-title {
+  font-size: 22px;
+  margin: 0;
+}
+
+.modal-h3 {
+  margin: 20px 10px 5px 0px;
+}
+
+.modal-h3 span {
+  margin-left: 10px;
+}
+
+.modal-price-text {
+  margin: 15px 0px 2px;
+  font-size: 16px;
+}
+
+.covid-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.covid-cases {
+  display: flex;
+  font-size: 22px;
+}
+
+.covid-cases div {
+  flex: 1;
+}
+
+.slide-in-modal {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #d6d6da;
+  color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.slide-in-modal .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 36px;
+  background-color: transparent;
+  color: #111;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#main {
+  transition: margin-right 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .slide-in-modal {
+    padding-top: 15px;
+  }
+  .slide-in-modal a {
+    font-size: 18px;
+  }
+}
+
+.advisory-styles {
+  margin-bottom: 30px;
+}
+
+.advisory-styles a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 600;
+}
+
+.advisory-styles a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.price-per-person {
+  margin-bottom: 20px;
+}
+
+.price-per-person span {
+  color: #505050;
+}
