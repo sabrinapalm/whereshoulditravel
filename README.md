@@ -1,4 +1,4 @@
-# Where should I travel - Save countries to travel to
+# Where should I travel - Safe countries to travel to
 
 This was my idea for Hackathon 2020 @EtraveliGroup
 
