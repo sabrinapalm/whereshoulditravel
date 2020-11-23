@@ -1,6 +1,6 @@
 import { getApiCountryName, checkCountryCode } from './helpers';
 
-const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+const API_KEY = process.env.REACT_APP_RAPID_API_KEY;
 
 export const getCovidStatistics = async (country) => {
   const countryName = getApiCountryName(country);
